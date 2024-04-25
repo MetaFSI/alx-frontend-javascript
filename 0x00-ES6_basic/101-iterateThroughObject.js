@@ -1,8 +1,8 @@
 export default function iterateThroughObject(reportWithIterator) {
-  // Utiliser méthode Array.from pour convertir l'itérateur en tableau
+  // Use the Array.from method to convert the iterator into an array
   const employeesArray = Array.from(reportWithIterator);
 
-  // Utiliser méthode join pour concaténer les noms des employés avec '|'
+  // Use the join method to concatenate the names of employees with '|'
   const result = employeesArray.join(' | ');
 
   return result;
